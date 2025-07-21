@@ -1,0 +1,53 @@
+,aquatic,built,eared_willow,eleusine_indica,english_oak,farmland,phragmites_australis,prunus_spinosa,species_rich_grass,urtica_dioica,white_willow
+aquatic,364,43,0,40,4,13,1,2,13,15,1
+built,43,365,0,25,0,10,0,0,32,22,0
+eared_willow,0,0,390,0,47,0,0,1,0,0,61
+eleusine_indica,28,16,0,329,0,55,0,0,31,26,0
+english_oak,0,0,69,0,390,1,1,4,1,2,32
+farmland,40,4,0,37,0,394,0,0,17,8,0
+phragmites_australis,14,0,5,1,8,2,357,88,0,2,23
+prunus_spinosa,1,0,3,0,4,0,86,196,25,47,15
+species_rich_grass,8,12,1,22,0,18,0,0,346,89,1
+urtica_dioica,16,15,0,23,0,11,26,0,91,318,0
+white_willow,2,2,78,13,49,0,3,8,25,20,299
+,,,,,,,,,,,
+Overall Statistics,,,,,,,,,,,
+                                          ,,,,,,,,,,,
+               Accuracy : 0.7006          ,,,,,,,,,,,
+"                 95% CI : (0.6881, 0.7128)",,,,,,,,,,,
+    No Information Rate : 0.1086          ,,,,,,,,,,,
+    P-Value [Acc > NIR] : < 2.2e-16       ,,,,,,,,,,,
+                                          ,,,,,,,,,,,
+                  Kappa : 0.6703          ,,,,,,,,,,,
+                                          ,,,,,,,,,,,
+ Mcnemar's Test P-Value : NA              ,,,,,,,,,,,
+,,,,,,,,,,,
+Statistics by Class:,,,,,,,,,,,
+,,,,,,,,,,,
+                     Class: aquatic Class: built Class: eared_willow Class: eleusine_indica Class: english_oak,,,,,,,,,,,
+Sensitivity                 0.70543      0.79869             0.71429                0.67143            0.77689,,,,,,,,,,,
+Specificity                 0.97269      0.97302             0.97731                0.96790            0.97731,,,,,,,,,,,
+Pos Pred Value              0.73387      0.73441             0.78156                0.67835            0.78000,,,,,,,,,,,
+Neg Pred Value              0.96869      0.98104             0.96784                0.96691            0.97691,,,,,,,,,,,
+Prevalence                  0.09645      0.08542             0.10206                0.09159            0.09383,,,,,,,,,,,
+Detection Rate              0.06804      0.06822             0.07290                0.06150            0.07290,,,,,,,,,,,
+Detection Prevalence        0.09271      0.09290             0.09327                0.09065            0.09346,,,,,,,,,,,
+Balanced Accuracy           0.83906      0.88585             0.84580                0.81966            0.87710,,,,,,,,,,,
+                     Class: farmland Class: phragmites_australis Class: prunus_spinosa,,,,,,,,,,,
+Sensitivity                  0.78175                     0.75316               0.65552,,,,,,,,,,,
+Specificity                  0.97813                     0.97067               0.96417,,,,,,,,,,,
+Pos Pred Value               0.78800                     0.71400               0.51989,,,,,,,,,,,
+Neg Pred Value               0.97732                     0.97588               0.97929,,,,,,,,,,,
+Prevalence                   0.09421                     0.08860               0.05589,,,,,,,,,,,
+Detection Rate               0.07364                     0.06673               0.03664,,,,,,,,,,,
+Detection Prevalence         0.09346                     0.09346               0.07047,,,,,,,,,,,
+Balanced Accuracy            0.87994                     0.86192               0.80984,,,,,,,,,,,
+                     Class: species_rich_grass Class: urtica_dioica Class: white_willow,,,,,,,,,,,
+Sensitivity                            0.59552              0.57923             0.69213,,,,,,,,,,,
+Specificity                            0.96834              0.96209             0.95933,,,,,,,,,,,
+Pos Pred Value                         0.69618              0.63600             0.59920,,,,,,,,,,,
+Neg Pred Value                         0.95158              0.95237             0.97258,,,,,,,,,,,
+Prevalence                             0.10860              0.10262             0.08075,,,,,,,,,,,
+Detection Rate                         0.06467              0.05944             0.05589,,,,,,,,,,,
+Detection Prevalence                   0.09290              0.09346             0.09327,,,,,,,,,,,
+Balanced Accuracy                      0.78193              0.77066             0.82573,,,,,,,,,,,
